@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>FreshOverseas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="StyleHome1.css" />
+	<link rel="stylesheet" media="screen and (min-width: 501px) and (max-width:950px)" href="tabhome.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 951px)" href="StyleHome.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+
+</head>
+<body>
+    <header>
+        <nav>
+
+            <label class="logo"><img src="Images/blacklogo.png" class="logoim" /></label>
+            <input type="checkbox" id="click" />
+            <label for="click" class="menubtn"><i class="fas fa-bars"></i></label>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Contactus.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+		 
+		
+		 
+        <div class="bb2">
+            <h1>Welcome<br/> to <br/>Fresh <br/>Overseas</h1>
+			 
+        </div>
+		<img src="Pics/veg4.png" class="veg1"/>
+    </div>
+	
+	
+    <div class="container1">
+        <div class="Para1">
+            <h2>At Fresh Overseas....</h2>
+            <p>
+                Fruits, vegetables, spices, grains, pulses, and such other crops thrive in India. Due to the large amounts of vegetables produced in India, we can vegetable export from India too. Many vegetables are included in the export of vegetables from India like Onion, Broccoli, Brinjal, Spinach, cabbage, Green chilies so on, and so forth. Pisum Foods is a leading vegetable importer from India today. We work on the export of Indian vegetables, fruits, spices, pulses, oilseeds, and such other products.
+
+                At Fresh Overseas, we believe that the Customer is our King. We, therefore, assist our clients in each step on the way while exporting vegetables in India. Being one of the best vegetable exporters in India, we strictly follow all the health and safety measures of the Government of India. Fresh Overseas is the most reliable vegetable exporter in India. Our processes are completely transparent and we make sure that the desired products reach their destination safe, fresh, and on time.
+                If you are looking for vegetable import from India, Fresh Overseas is the best choice!
+            </p>
+        </div>
+		<div class="blurbox">
+		   <img src="Images/banner2.jpg" class="ban1"/>
+		   <div class="blurbox1">
+		    <H1>FRESHNESS MATTERS!!</h1>
+			</div>
+		</div> 
+		<div class="subcont1">
+        <div class="Para2">
+            <h3>Best Quality Products</h3>
+            <article>
+                Our Products are the finest,100% natural and examined by experts for quality.
+                We spply Non-GMO products to our customers across globe.
+                Our Produts are grown acording to the international standards and
+                each products is checked to fit in our highest standard of quality.
+            </article>
+
+         </div>
+         <div class="spc1"></div>
+         <div class="Para3">
+            <h3>We Supply Fresh</h3>
+            <article>
+                Our Dedication to Quality ensures that our products are picked fresh,
+                packed well and delivered fresh.
+                We are committed to the supply of safe and fresh food products by adhering to strict
+                hygiene & quality norms during procurement,
+                processing, storage and dispatch.
+            </article>
+
+         </div>
+
+		</div>
+         <div class="Para4">
+           <div class="p4b1" >
+			<h3>Why Fresh Overseas ?</h3><br/>
+            <p>
+                
+                The following factors set us apart from the competitors in the market:<br />
+
+                1. Wide distribution network<br />
+                2. Timely delivery of the consignment<br />
+                3. Customized packaging solutions<br />
+                4. Well-equipped infrastructure<br />
+                5. Easy payment modes<br />
+                6. Quality assured products<br/>
+            </p>
+			 </div>
+			  <div class="p4b2">
+			  <img src="Pics/veg5.png" class="veg3"/>
+			  </div>
+           </div>
+	
+
+
+        <!--Product Range-->
+        <div class="prodr">
+            <h2>Our Products Range</h2>
+
+ 
+            </head>
+            <body>
+
+ 
+
+ 
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 5</div>
+                        <img src="Prodimg/onio.jpg" style="width:90%" class="movimg">
+                        <div class="text">Onions</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 5</div>
+                        <img src="Prodimg/grapes.jpg" style="width:90%" class="movimg">
+                        <div class="text">Grapes</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 5</div>
+                        <img src="Prodimg/mango1.jpg" style="width:90% " class="movimg">
+                        <div class="text">Mangoes</div>
+                    </div>
+
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="Prodimg/pumpkin.jpg" style="width:90% " class="movimg">
+                        <div class="text">Pumpkins</div>
+                    </div>
+
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="Prodimg/pomo.jpg" style="width:90% " class="movimg">
+                        <div class="text">Pomogranates</div>
+                    </div>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("dot");
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) { slideIndex = 1 }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        dots[slideIndex - 1].className += " active";
+                        setTimeout(showSlides, 2000); // Change image every 2 seconds
+                    }
+                </script>
+                
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+		<div class="foot">
+        <div class="social">
+            <h4>Our Social Handels</h4><br />
+            <div class="w1">
+
+               <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+				 <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+				 <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+				 <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+            </div>
+			
+        </div>
+		
+		 <div class="sitemap">
+		  <div class="sm1">
+			<h3>Links  </h3>
+		  </div>
+		  <div class="sm2">
+                <a class="active" href="#">Home</a></br><br>
+                <a href="Product.html">Products</a></br><br>
+                <a href="enquiry.html">Enquiry</a></br><br>
+                <a href="About.html">About Us</a></br><br>
+                <a href="Contactus.html">Contact</a>
+		  </div>
+		 </div>
+		 <div class="contact">
+		   <div class="sm3">
+		     <h3>Contact Us </h3>
+		   </div>
+		   <div class="sm4">
+		                                    <p>
+                                             <b>Address :</b> 2/12 Parsiwadi near Maneklal compound
+                                              Ghatkopar(West), Mumbai 400086,
+                                              Maharashtra, India<br /><br/>
+                                             <b>Email id :</b> freshoverseas@outlook.com<br/> <br/>
+                                             <b>Contact :</b> +918591196268<br />
+                                             &emsp; &emsp;&emsp; &nbsp;&nbsp;+917738719584<br/>
+												<b>Website :</b> www.freshoverseas.com
+                                         </p>
+		   </div>
+		 </div>
+
+			<div class="copyrt">
+            <p>
+                &copy; 2021 All rights reserved by Fresh Overseas Pvt. Ltd | Designed and Developed by AS Pixels
+
+            </p>
+			</div>
+      </div>
+    </div>
+
+</body>
+</html>

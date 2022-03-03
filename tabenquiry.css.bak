@@ -1,0 +1,339 @@
+body {
+    
+}
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav {
+    background-color: white;
+    height: 15.8%;
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+}
+
+
+.logoim {
+    height: 76%;
+    width: 40%;
+    margin-top: 10px;
+    object-fit: fill;
+    margin-left:2%;
+    object-position: -30px 0;
+}
+
+nav ul{
+    position:fixed;
+    margin-top:0vh;
+    left:-100%;
+    background-color: white;
+    height:100vh;
+    width:100%;
+    display:block;
+    text-align:center;
+
+}
+nav ul li{
+    margin:40px 0;
+}
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: 1.1rem;
+        
+    }
+nav ul li a.active, nav ul li a:hover {
+    color:#0058f0;
+	background:white;
+	font-weight:600;
+    font-size:1.3rem;
+	
+}
+nav .menubtn i{
+    color:black;
+    font-size:1.6rem;
+    cursor:pointer;
+    display:block;
+    float:right;
+    padding-right:5%;
+    padding-top:4%;
+}
+#click{
+    display:none;
+}
+#click:checked~ul{
+    left:0;
+    transition: all 0.4s ease;
+}
+
+
+/*Content*/
+
+#particles-js h1 {
+		 position:absolute;
+        padding-top: 15%;
+        font-size: 6.5vw;
+        font-family: "Lucida Console", "Courier New", monospace;
+        text-align: left;
+		 font-weight: 900;
+		 line-height:60px;
+		 letter-spacing: 7px;
+        text-transform: uppercase;
+        color: black;
+		 padding-left: 7%;
+		 
+
+ }
+ 
+ #particles-js{
+	 width: 100%;
+    margin-top: 0px;
+    height: 400px;
+	background:#000;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+	background: linear-gradient(45deg,#e8ffec,#3dff61);
+
+	 
+ }
+.veg1{
+	position:absolute;
+	float:right;
+	object-fit:fill;
+	/*height:23rem;
+	width:28rem;*/
+	height:62%;
+	width:35%;
+	margin-top:16%;
+	background-color: transparent;
+    background-repeat:no-repeat;
+    margin-right:1%;
+	margin-left:62%;
+}
+.container1 {
+    width: 100%;
+    position: relative;
+    background-color:#fafafa;
+    height: 55rem;
+}
+
+
+.enqform {
+    width: 80%;
+    position: relative;
+    float: right;
+    height: 680px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 17px;
+    font-weight:700;
+	top:60px;
+	background-image:linear-gradient(
+		to bottom,
+		#00630f  0%,
+		#00630f 12%,
+		white 12%,
+		white 100%
+		
+	
+	);
+    
+}
+.enqform h2 {
+    text-align:center;
+	
+	
+}
+.tbox{
+    width:100%;
+    height:25px;
+   
+
+}
+#submit{
+    width:160px;
+    height:30px;
+    margin-left:25%;
+}
+.foot {
+    width: 100%;
+    bottom: 0;
+    height: 38rem;
+    float: right;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+}
+.foot p{
+    text-align:center;
+	font-size:.8rem;
+	 
+
+}
+.sitemap{
+	width:30%;
+	height:12rem;
+	float:left;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+
+.sitemap a{
+	color:white;
+	text-decoration:none;
+
+	
+}
+.sm2 a:active{
+	background:black;
+	text-decoration:none;
+}
+.sm2 a: hover{
+	width:200px;
+	background-color: cyan;
+	border-radius:15px;
+}
+.sm2 a:link{
+	text-decoration:none;
+}
+.sm1{
+	width:20%;
+	float:left;
+}
+
+
+.sm2{
+	width:60%;
+	float:left;
+	padding-left: 20%;
+}
+.contact{
+	width:35%;
+	height:150px;
+	float:right;
+	margin-left:5%;
+	margin-right:10%;
+
+	
+}
+.sm3{
+	width:36%;
+	float:left;
+}
+.sm4{
+	width: 64%;
+	float: left;
+	text-align:left;
+	padding-top:0;
+	margin-top:0;
+}
+.sm4 p{
+	line-height:18px;
+	font-size: 16px;
+	text-align:left;
+	padding-top:0;
+}
+	
+.copyrt{
+	margin-top:4rem;
+	width:100%;
+	float:right;
+}
+.copyrt{
+	padding-top:90px;
+}
+
+
+
+
+
+
+
+
+.logoim {
+    height: 3.3rem;
+    width: 21rem;
+    margin-top: .9rem;
+    object-fit: fill;
+	margin-left:.9rem;
+    object-position: -30px 0;
+}
+#click{
+    display:none;
+}
+.social {
+    width: 65%;
+    position: relative;
+    height: 180px;
+    float: right;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+    .social h4 {
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+    }
+
+
+
+/*Social button*/
+
+.w1{
+    margin-left:14%;
+}
+
+
+.fa {
+  padding: 1rem;
+  font-size: 30px;
+  width: 3rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin:13px;
+  float:center;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #ff2b87;
+  color: white;
+}
+.fa:hover {
+  padding: 1.1rem;
+  font-size: 30px;
+  width: 66px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top:0px;
+  margin-right: 0.2rem;
+  margin-left:0.3rem;
+}
+
