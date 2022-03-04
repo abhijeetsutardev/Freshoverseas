@@ -350,11 +350,11 @@ nav .menubtn i{
 	display:none;
 }
 .contact{
-	width:90%;
+	width:90vw;
 	height:150px;
 	float:right;
-	margin-left:5%;
-	margin-right:10%;
+	margin-left:5vw;
+	margin-right:5vw;
 
 	
 }
