@@ -295,6 +295,7 @@ nav .menubtn i{
 .blurbox {
   position: relative;
   bottom:0;
+  top:2rem;
 }
 
 /* Bottom right text */
@@ -329,13 +330,13 @@ nav .menubtn i{
 
 
 .foot {
-    width: 100%;
+     width: 100%;
     bottom: 0;
     height: 34rem;
     float: right;
     background-color: black;
     color: white;
-    margin-top: 0px;
+    margin-top: 1.75rem;
 }
 .foot p{
     text-align:center;
