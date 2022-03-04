@@ -137,18 +137,26 @@ nav .menubtn i{
     height: 82vh;
     margin-left: 5vw;
     margin-right: 5vw;
-    background-color: white;
     border-radius: 10px;
     padding-left: 5vw;
     padding-right: 5vw;
     font-size: 17px;
     font-weight:700;
 	top:60px;
+        background-image:linear-gradient(
+		to bottom,
+		#00630f  0%,
+		#00630f 15%,
+		white 15%,
+		white 100%
+		
+	
+	);
     
 }
 .enqform h2 {
     text-align:center;
-	
+	color:white;
 	
 }
 .tbox{
